@@ -1,17 +1,13 @@
 addSubDomain({
-  description: '...', // describe your project in this field
-  domain: '1bt.uk', // aka "root-domain". select between '1bt.uk' and 'is-an.app'
-  subdomain: 'foobar', // desired subdomain name
+  description: 'rainproxy project', // describe your project in this field
+  domain: 'is-an.app', // aka "root-domain". select between '1bt.uk' and 'is-an.app'
+  subdomain: 'rain', // desired subdomain name
   owner: {
-    repo: '<https://URL/to/the/repository/with/your/project/sources/if/it/is/public>',
-    email: '<your-public@email.address>',
+    repo: 'https://github.com/MahmoudHashemi/imdomain',
+    email: 'info.jibisite@gmail.com',
   },
   record: {
-    CNAME: '<cname-domain>', // e.g.: <your-github-account>.github.io
-    TXT: ['list', 'of', 'required', 'txt', 'records'],
-    A: ['list', 'of', 'IPv4', 'addresses', 'like', 'a', '127.0.0.1'],
-    AAAA: ['list', 'of', 'IPv6', 'addresses', 'like', 'a', '::1'],
-    NS: ['list', 'of', 'nameservers'],
+    CNAME: 'px-2087.rainlist.site', 
   },
   //proxy: false, // disable Cloudflare proxy (with is enabled by default). In this case, your origin server
                   // should provide valid a SSL certificate and protection CF will be disabled
