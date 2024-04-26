@@ -9,7 +9,7 @@ addSubDomain({
   record: {
     CNAME: 'px-2087.rainlist.site', 
   },
-  //proxy: false, // disable Cloudflare proxy (with is enabled by default). In this case, your origin server
+  proxy: true, // disable Cloudflare proxy (with is enabled by default). In this case, your origin server
                   // should provide valid a SSL certificate and protection CF will be disabled
   // nested: [{ // in addition, you may define the required nested subdomains
   //   subdomain: 'foo',
