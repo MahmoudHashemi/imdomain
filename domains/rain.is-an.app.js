@@ -7,7 +7,7 @@ addSubDomain({
     email: 'info.jibisite@gmail.com',
   },
   record: {
-    CNAME: 'px-2087.rainlist.site', 
+    CNAME: 'cloud1--git.rainlist.site', 
   },
   proxy: true, // disable Cloudflare proxy (with is enabled by default). In this case, your origin server
                   // should provide valid a SSL certificate and protection CF will be disabled
