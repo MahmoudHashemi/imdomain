@@ -7,7 +7,7 @@ addSubDomain({
     email: 'info.jibisite@gmail.com',
   },
   record: {
-    CNAME: 'cloud1-git.rainlist.site', 
+    NS: ['may.ns.cloudflare.com', 'sid.ns.cloudflare.com'], 
   },
   proxy: true, 
 })
